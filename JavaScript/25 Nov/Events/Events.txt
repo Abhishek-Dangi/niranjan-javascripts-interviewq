@@ -1,0 +1,3 @@
+Events - When a client(user) do some activity on webpage.
+for ex. clicked on a button, fill form, mouse over etc.
+Also when browser changes it's state that is also an event. 

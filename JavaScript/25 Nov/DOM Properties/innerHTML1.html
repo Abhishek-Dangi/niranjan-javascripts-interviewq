@@ -1,0 +1,31 @@
+<!-- innerHTML property
+to write the dynamic html on the html document. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>innerHTML property</title>
+</head>
+<body>
+    <script>
+        var flag=true;
+        function showData(){
+            var data="Demo of innerHTMl propertyDemo of innerHTMl propertyDemo of innerHTMl propertyDemo of innerHTMl propertyDemo of innerHTMl propertyDemo of innerHTMl propertyDemo of innerHTMl propertyDemo of innerHTMl propertyDemo of innerHTMl propertyDemo of innerHTMl propertyDemo of innerHTMl propertyDemo of innerHTMl propertyDemo of innerHTMl propertyDemo of innerHTMl propertyDemo of innerHTMl propertyDemo of innerHTMl propertyDemo of innerHTMl propertyDemo of innerHTMl propertyDemo of innerHTMl propertyDemo of innerHTMl propertyDemo of innerHTMl property"
+            
+            if(flag){
+            document.getElementById('myLocation').innerHTML=data;
+            flag=false;
+            }
+            else{
+                document.getElementById('myLocation').innerHTML = "";
+                flag = true;
+            }
+        }
+    </script>
+
+    <form>
+        <input type="button" value="Toggle Content !" onclick="showData()"><br><br>
+        <div id="myLocation"></div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!-- innerHTML property
+to write the dynamic html on html document / page. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>innerHTML property</title>
+</head>
+<body>
+    <script>
+        function showData(){
+            var data="Demo of innerHTMl property";
+            document.getElementById('myLocation').innerHTML=data;
+        }
+    </script>
+    <form name="myForm">
+        <input type="button" id="btn" value="Comment" onclick="showData()"><br><br>
+        <span id="myLocation"></span>
+    </form>
+</body>
+</html>

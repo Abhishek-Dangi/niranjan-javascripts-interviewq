@@ -1,0 +1,22 @@
+<!-- document.getElementByClassName() used for selecting or getting the elements through their 
+    class name value. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>getElementByClassName</title>
+</head>
+
+<body>
+    <form>
+        Enter No : <input type="text" class="num">
+        <input type="button" value="Submit" onclick="getCube()">
+    </form>
+    <script>
+        function getCube() {
+            var num = document.getElementsByClassName("num").value; // class name is not working
+            alert(num)  ;
+        }
+    </script>
+</body>
+
+</html>

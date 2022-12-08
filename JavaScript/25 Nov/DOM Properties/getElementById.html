@@ -1,0 +1,19 @@
+<!-- document.getElementById() method returns the element of specified id. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>getElementById</title>
+</head>
+<body>
+    <form>
+        Enter No : <input type="text" id="num" name="number">
+        <input type="submit" value="Submit" onclick="getCube()">
+    </form>
+    <script>
+        function getCube(){
+           var num = document.getElementById("num").value;
+           alert(num*num*num + " is cube of " + num);
+        }
+    </script>
+</body>
+</html>

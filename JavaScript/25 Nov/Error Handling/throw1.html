@@ -1,0 +1,31 @@
+try…catch…throw syntax
+try{
+throw exception; // user can define their own exception
+}
+catch(error){
+expression; } // code for handling exception.
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Exception Handling - try...catch</title>
+</head>
+<body>
+    <br><br><script>
+        try{
+            const arr=[10,20,30,40,50];
+            if(arr){
+                document.write(arr+ "<br><br>");
+            }else{
+            throw new Error('This is the throw statement');
+            }
+            // document.write(arr1+"<br>");
+        }catch(e){
+            document.write("Error = "+e.message);
+        }
+    </script>
+
+</body>
+</html>

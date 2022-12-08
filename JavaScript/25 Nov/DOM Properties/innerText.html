@@ -1,0 +1,31 @@
+<!-- innerText - to write the dynamic text on the html document. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>innerText</title>
+</head>
+<body>
+    <script> 
+    var msg;
+    var upass= document.getElementById('pass').value;
+    function validate(){
+            if (document.myForm.userPass.value.length > 5) {
+            msg = "Strong Password";
+        } else {
+            msg = "Weak Password";
+        }
+        // not working
+        // if(upass.length>5){
+        //     msg = "Strong Password";
+        // } else {
+        //     msg = "Weak Password";
+        // }
+        document.getElementById('myLocation').innerHTML=msg;
+    }
+    </script>
+<form name="myForm">
+    Enter Password : <input type="password" name="userPass" id="pass" onkeyup="validate()">
+    Strength : <span id="myLocation">No Strength</span>
+</form>
+</body>
+</html>

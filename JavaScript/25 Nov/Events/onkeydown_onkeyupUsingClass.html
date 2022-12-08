@@ -1,0 +1,19 @@
+<!-- onkeydown & onkeyup -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>onkeydown & onkeyup</title>
+</head>
+<body>
+    <script>
+function getQube(){
+    var num=10;
+    document.write("This is a number = " + num);
+    document.getElementsByClassName("span").innerHTML=num; // it's working
+}
+    </script>
+Enter Number : <input type="text" onkeyup="getQube()">
+<span class="span">Hereeeee</span>
+</body>
+</html>

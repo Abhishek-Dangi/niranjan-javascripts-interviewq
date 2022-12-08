@@ -1,0 +1,47 @@
+<!-- 
+window object represents a window in browser.
+alert()
+prompt()
+setTimeout()
+confirm() 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window Object</title>
+    <p>Hello</p>
+</head>
+<body>
+<button id="btn1" onclick="alrt1()">Alert Box1</button></br>
+<button id="btn2" onclick="alrt2()">Alert Box2</button></br>
+<button id="btn3" onclick="alrt3()">Alert Box3</button></br>
+<button id="btn4" onclick="alrt4()">Alert Box4</button></br>
+<button id="btn5" onclick="alrt5()">Alert Box5</button></br>
+<button id="btn6" onclick="alrt6()">Alert Box6</button></br>
+    <script>
+        document.getElementById("btn1").innerHTML;
+        function alrt1(){
+            alert("This is alert");
+        };
+                document.getElementById("btn2").innerHTML;
+                function alrt2() {
+                        confirm("This is confirm");
+                    };
+                            function alrt3() {
+                                    prompt("This is prompt");
+                                };
+                                        function alrt4() {
+                                                open("This is open");
+                                            };
+                                                        function alrt5() {
+                                                            close("This is close");
+                                                        }; function alrt6() {
+                                                                setTimeout(console.log("This is setTimeOut"),1000);
+                                                            };
+    </script>
+</body>
+</html>

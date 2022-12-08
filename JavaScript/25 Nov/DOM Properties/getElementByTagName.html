@@ -1,0 +1,24 @@
+<!-- document.getElementByTagName() method returns all the element of specified tag name.. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>getElementByTagName</title>
+</head>
+<body>
+        <p>para1</p>
+        <p>para1</p>
+        <p>para1</p>
+        <p>para1</p>
+        <p>para1</p>
+        <p>para10</p>
+<button onclick="countPara()">Count Para!</button>
+
+    <script>
+        function countPara() {
+            var para = document.getElementsByTagName("p");
+            alert("All Paragraphs in webpage = "+ para.length);
+        }
+    </script>
+</body>
+</html>

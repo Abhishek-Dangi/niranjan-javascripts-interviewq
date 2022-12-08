@@ -1,0 +1,30 @@
+Exception - breaks execution of code, it can be a bug or issue created by Syntax Error, Runtime Error or Logical Error.
+try...catch - used to handle the error-generating part of code or applied by proffesinals where code is written complex.
+try - block used to test the code and if getting some error, it passes to catch block.
+catch - block used to handle failed code and provides an alternative solution of code.
+ex. redirect to another route. 
+
+Syntax:
+try{
+expression; } // code to be written or test
+catch(error){
+expression; } // alternative solution of code
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Exception Handling - try...catch</title>
+</head>
+<body>
+    <br><br><br><script>
+        try{
+            const arr=[10,20,30,40,50];
+            document.write(arr + "<br>");
+            document.write(arr1+"<br>");
+        }catch(error){
+            document.write("Error = "+error);
+            console.log(error)
+        }
+    </script>
+</body>
+</html>

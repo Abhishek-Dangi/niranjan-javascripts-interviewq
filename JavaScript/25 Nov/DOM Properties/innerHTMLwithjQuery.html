@@ -1,0 +1,33 @@
+<!-- innerHTML property
+to write the dynamic html on the html document. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>innerHTML property</title>
+</head>
+<body>
+    <script>
+        var mLoct = document.getElementById('myLocation');
+        var data = "Demo of innerHTMl propertyDemo of";
+        var flag=true;
+                $(document).ready(function showData() () {
+                    $("mLoct").click(showData(){
+                        if(flag) {
+                            mLoct.innerHTML = data;
+                            flag = false;
+                        }
+                        else{
+                            mLoct.innerHTML = "";
+                            flag = true;
+                        }
+                    });
+                }
+    </script>
+
+    <form>
+        <input type="button" value="Toggle Content !" onclick="showData()"><br><br>
+        <div id="myLocation"></div>
+    </form>
+</body>
+</html>
