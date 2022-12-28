@@ -18,8 +18,6 @@ it is the solution of callback hell situation.
 //   console.log(error);
 // });
 
-
-
 //prectis
 let promise = new Promise(function (resolve, reject) {
   // resolve("success");

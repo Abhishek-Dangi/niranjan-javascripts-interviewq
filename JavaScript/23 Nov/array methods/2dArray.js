@@ -9,7 +9,7 @@ const arr = [["potato", 1], ["orange", 2]];
 
 var arr1 = arr.map((items) => {
     // console.log(items);
-    items.map((itm)=>{
+    items.map((itm) => {
         console.log(itm);
     })
 })

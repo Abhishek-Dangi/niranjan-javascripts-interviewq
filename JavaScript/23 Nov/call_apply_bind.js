@@ -33,9 +33,14 @@ const address = {
     comp: "drh",
     state: "41",
 };
+const address1 = {
+    name: "null",
+    comp: "not metion",
+    state: "10",
+};
 
 console.log("call method");
 console.log(empDetails.fulladdress.call(address));
 console.log("apply method");
-console.log(empDetails.fulladdress.apply(address));
+console.log(empDetails.fulladdress.apply(address1));
 

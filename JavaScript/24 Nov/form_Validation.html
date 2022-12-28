@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Validation</title>
 </head>
+
 <body>
     <script>
-function validForm(){
-    var email =document.myForm.email.value;
-    var password=document.myForm.password.value;
+        function validForm() {
+            var email = document.myForm.email.value;
+            var password = document.myForm.password.value;
 
-    if(email ==""|| email ==null){
-        alert("Email can't be blank");
-          return false;  
-    }
-    else if(password.length<6){
-          alert("Password must be at least 6 characters long.");
-            return false;  
-    }
-}
+            if (email == "" || email == null) {
+                alert("Email can't be blank");
+                return false;
+            }
+            else if (password.length < 6) {
+                alert("Password must be at least 6 characters long.");
+                return false;
+            }
+        }
     </script>
 
-    <form name="myForm" action="http://www.javatpoint.com/javascriptpages/valid.jsp" method="post" onsubmit="return validForm()">
+    <form name="myForm" action="http://www.javatpoint.com/javascriptpages/valid.jsp" method="post"
+        onsubmit="return validForm()">
         Email : <input type="text" name="email"> <br><br>
         Password : <input type="text" name="password"><br><br>
         <input type="submit" value="Submit Form">
     </form>
 </body>
-</html>
+
+</html>,

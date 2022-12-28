@@ -1,4 +1,5 @@
-// callback function passed as an argument to another function or call by another function or after execution of another function.
+// callback function passed as an argument to another function 
+//or call by another function or after execution of another function.
 // function
 // function greet(name, callBack) {
 //     console.log('Hiiii' + ' ' + name);

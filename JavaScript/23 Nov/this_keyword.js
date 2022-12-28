@@ -4,7 +4,7 @@ var address =
   company: "trh",
   city: "indore",
   state: "MP",
-  fullAddress: function() {
+  fullAddress: function () {
     return this.company + " " + this.city + " " + this.state;
   }
 };
@@ -17,3 +17,6 @@ console.log(fetch);
 
 
 // apply()
+
+
+// In JavaScript, the this keyword refers to an object.Which object depends on how this is being invoked(used or called). 

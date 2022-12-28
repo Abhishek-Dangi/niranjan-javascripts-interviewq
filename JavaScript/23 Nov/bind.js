@@ -6,7 +6,7 @@
 //       console.log(this.name);
 //       console.log(this.sirName);
 //    }
-// }
+// } 
 
 // // var printFunc2= empDetails.printFunc.bind(empDetails);
 // //using bind() 

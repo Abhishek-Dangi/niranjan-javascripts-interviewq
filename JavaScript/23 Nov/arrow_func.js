@@ -17,4 +17,4 @@ let result = sub(20, 10);
 console.log(result);
 // output
 // 12
-// 10
+// 10wrong

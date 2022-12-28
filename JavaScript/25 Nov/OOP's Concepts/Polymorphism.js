@@ -2,13 +2,13 @@
 
 // same name method in different classes
 // this is called method overriding.
-class A{
+class A {
     display() {
         console.log("A display is invoked!!");
     }
 }
-class B extends A{
-        display() {
+class B extends A {
+    display() {
         console.log("B display is invoked!!");
     }
 }
